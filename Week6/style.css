@@ -1,0 +1,100 @@
+* {
+    font: size 16px;
+    --mainc: #64c1ff;
+    --darkc: #cfa5f1;
+    --background: #f0f0ef;
+    --dark-background: #1f1f1f;
+    --card: #b0e5ff;
+    --bad: #d10000;
+    --blue: #341dff;
+    --good: #07bb52;
+}
+
+body {
+    font-family:'Courier New', Courier, monospace;
+    background-color:  var(--background);
+}
+
+body.dark {
+    font-family:'Courier New', Courier, monospace;
+    background-color:  var(--dark-background);
+    color: blue;
+}
+
+body.dark .card {
+    background-color: var(--darkc);
+    color: #1c072e;
+    border: 1.5px solid #3c0f61;
+}
+
+
+div {
+    margin-bottom: 10px;
+}
+
+#section{
+    text-align: center;
+}
+
+#welcome-text{
+    font-size: 20px;
+    margin-bottom: 5px;
+    font-weight: 1000;
+}
+
+#pictures{
+    text-align: center;
+}
+
+.card { 
+    width: 600px;
+    height: 600px;
+    margin: auto;
+    margin-bottom: 20px;
+    border: 1.5px solid black;
+    border-radius: 20px;
+    color: blue;
+    background-color: var(--card);
+}
+
+#open {
+    margin-top: 10px;
+    display: none;
+    justify-content: center;
+    text-align: center;
+}
+
+ul {
+    list-style-position: inside; 
+    padding-left: 20px;            
+    margin: 0;
+    text-align: left;
+}
+
+li {
+    margin-bottom: 2px;          
+    font-size: 18px;            
+}
+
+
+.image {
+    margin-top: 40px;
+    width: 100%;
+    height: 400px;
+    object-fit: contain;
+    display: none;
+}
+
+#picture-text{
+    font-size: 30px;
+    margin-bottom: 5px;
+    font-weight: 1000;
+}
+
+#button-hover{
+    margin-top: 15px;
+}
+
+#dark-on {
+    color: var(--background)
+}
